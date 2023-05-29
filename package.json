@@ -1,6 +1,7 @@
 {
   "name": "Portfolio",
   "description": "Personal Website",
+  "homepage": "https://www.dhunganapradip.com.np/",
   "version": "1.0.0",
   "author": "Pradip Dhungana <dhungana.pradip188@gmail.com>",
   "repository": {
@@ -13,10 +14,12 @@
   "license": "MIT",
   "browserslist": "> 0.25%, not dead",
   "scripts": {
+    "start": "npm run develop",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "prepare": "husky install",
@@ -72,6 +75,7 @@
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.32.2",
     "gatsby-remark-code-titles": "^1.1.0",
+    "gh-pages": "^5.0.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
     "prettier": "^2.8.8"
