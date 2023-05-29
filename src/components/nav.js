@@ -7,7 +7,10 @@ import { navLinks } from '@config';
 import { loaderDelay } from '@utils';
 import { useScrollDirection, usePrefersReducedMotion } from '@hooks';
 import { Menu } from '@components';
-import { IconLogo, IconHex } from '@components/icons';
+import { IconLogo } from '@components/icons';
+
+// For HEX logo this should be enabled or the IconHEx should be imported
+// import { IconLogo, IconHex} from '@components/icons';
 
 const StyledHeader = styled.header`
   ${({ theme }) => theme.mixins.flexBetween};
@@ -67,12 +70,14 @@ const StyledNav = styled.nav`
 
     a {
       color: var(--green);
-      width: 42px;
-      height: 42px;
+      width: 120px;
+      height: 90px;
       position: relative;
       z-index: 1;
 
-      .hex-container {
+      // For HEX logo this should be enabled
+
+      /*  .hex-container {
         position: absolute;
         top: 0;
         left: 0;
@@ -80,7 +85,7 @@ const StyledNav = styled.nav`
         @media (prefers-reduced-motion: no-preference) {
           transition: var(--transition);
         }
-      }
+      }   */
 
       .logo-container {
         position: relative;
@@ -185,18 +190,24 @@ const Nav = ({ isHome }) => {
     <div className="logo" tabIndex="-1">
       {isHome ? (
         <a href="/" aria-label="home">
-          <div className="hex-container">
+          {/* For Hexagon logo  */}
+
+          {/* <div className="hex-container">
             <IconHex />
-          </div>
+          </div> */}
+
           <div className="logo-container">
             <IconLogo />
           </div>
         </a>
       ) : (
         <Link to="/" aria-label="home">
-          <div className="hex-container">
+          {/* For Hexagon logo  */}
+
+          {/* <div className="hex-container">
             <IconHex />
-          </div>
+          </div> */}
+
           <div className="logo-container">
             <IconLogo />
           </div>
