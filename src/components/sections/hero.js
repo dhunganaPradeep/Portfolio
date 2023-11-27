@@ -65,9 +65,9 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a Software Engineering student at NCIT. Currently, I’m focused on learning about AI and
-        Machine Learning using Python and Tensorflow. Recently, I've also started creating video
-        content related to travelling in my YouTube channel{' '}
+        I’m a Software Engineering student at NCIT exploring the diverse landscape of technology
+        that live on the internet. I'm passionate about coding, travel, and creating content on my
+        YouTube channel{' '}
         <a href="https://www.youtube.com/@pdvlogs9610" target="_blank" rel="noreferrer">
           PD Vlogs
         </a>
