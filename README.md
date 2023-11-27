@@ -1,6 +1,6 @@
 # Welcome to My Personal Website!
 
-### Thank you for visiting my personal website! This website was created using React and Node Js.
+### Thank you for visiting my portfolio!.
 
 ## About
 
@@ -14,7 +14,7 @@ On my website, you can find information about me, my professional experience, an
 
 ## Technologies Used
 
-- Javascript frameworks : React(for structure) and Node(for interactive elements)
+- Javascript frameworks : Gatsby(React based framework for structure) and Node(for interactive elements)
 
 ## 🛠 Installation & Set Up
 
