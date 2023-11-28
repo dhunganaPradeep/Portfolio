@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://dhunganapradip.com.np/sitemap-index.xml
+Host: https://dhunganapradip.com.np
