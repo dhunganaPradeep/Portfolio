@@ -10,4 +10,4 @@ company: ''
 showInProjects: true
 ---
 
-A straightforward job search engine created as part of a Web Technology project on 2nd semester of my study, built with HTML, CSS, JS and PHP.
+A straightforward job search engine created as part of a Web Technology project on 2nd semester of my study.

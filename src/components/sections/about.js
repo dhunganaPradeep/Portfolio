@@ -125,7 +125,20 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['HTML', 'CSS', 'JavaScript (ES6+)', 'PHP', 'Java'];
+  const skills = [
+    'JavaScript',
+    'PHP',
+    'Java',
+    'React',
+    'Python',
+    'Django',
+    'AWS',
+    'C#',
+    'Database(MySQL, SQLite)',
+    'Git',
+    'Vim',
+    'Linux',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -139,7 +152,7 @@ const About = () => {
               <span role="img" aria-label="handwave">
                 👋
               </span>
-              , I'm Pradip.I am a software engineering student. I enjoy exploring things that live
+              , I'm Pradip. I am a software engineering student. I enjoy exploring things that live
               on the internet. I love learning and expanding my skills through open source projects
               and hands-on experience.
             </p>
@@ -150,7 +163,7 @@ const About = () => {
               the guitar someday.
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>Here are a few technologies I’ve been working with:</p>
           </div>
 
           <ul className="skills-list">

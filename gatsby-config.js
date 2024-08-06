@@ -4,8 +4,8 @@ module.exports = {
   siteMetadata: {
     title: 'Pradip Dhungana',
     description:
-      'Pradip Dhungana is a software engineering student who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://dhunganapradip.com.np', // No trailing slash allowed!
+      'Pradip Dhungana is a Software Engineering student who loves exploring the diverse landscape of technology that live on the internet. Explore his projects, skills, and more.',
+    siteUrl: 'https://www.dhunganapradip.com.np', // No trailing slash allowed!
     image: '/og.jpeg', // Path to your image you placed in the 'static' folder
   },
   plugins: [
@@ -20,7 +20,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'Pradip Dhungana',
-        short_name: 'Pradip Dhungana',
+        short_name: 'dhunganaPradeep',
         start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,

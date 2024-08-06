@@ -12,7 +12,7 @@ module.exports = {
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/pradip-dhungana-a99773244/',
+      url: 'https://www.linkedin.com/in/thatguypradip/',
     },
   ],
 
